@@ -1,10 +1,10 @@
 import React, { Suspense, lazy } from "react";
 import { header, mapUser } from "../../utils/data";
-import Table from "../../components/Table";
 import Button from "../../components/Button";
 import Pagination from "../../components/Pagination";
 import Empty from "../../components/Empty";
 import { User } from "../../utils/interface";
+import TableMUI from "../../components/TableMUI";
 
 const ModalData = lazy(() => import("./ModalData"));
 const ModalDelete = lazy(() => import("./ModalDelete"));
@@ -75,7 +75,7 @@ export default function ListUser({
       {dataSource?.length === 0 ? (
         <Empty />
       ) : (
-        <Table
+        <TableMUI
           dataSource={dataSource}
           column={header}
           mapping={mapUser}
