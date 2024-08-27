@@ -16,7 +16,7 @@
 ## Cara Menjalankan :
 
 1. Buka Terminal / CMD
-2. kemudian ketik `git clone https://github.com/alghifarifikri/crud-user-json-server.git`
+2. kemudian ketik `git clone https://github.com/alghifarifikri/user-agent.git`
 3. Buka folder yang sudah di clone, kemudian ketik `npm install` untuk menginstall dependencies
 4. Buka Terminal / CMD baru yang mengarah ke folder yang sudah di clone
 5. Kemudian ketik `npm install -g json-server` untuk menginsall json-server secara global
