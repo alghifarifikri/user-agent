@@ -8,10 +8,11 @@
 
 ## Spesifikasi
 
-- Node V.16
+- Node V.20
 - JSON-Server
 - React V.18.2.0
 - Tailwind CSS
+- Material UI
 
 ## Cara Menjalankan :
 
